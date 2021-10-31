@@ -187,12 +187,12 @@ int APIENTRY wWinMain(
 
   g_instance = hInstance;
 
-  MessageBoxW(
-    nullptr,
-    ESTRt(L"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."),
-    ESTRt(L"Warranty disclaimer"),
-    MB_OK | MB_ICONWARNING
-  );
+  //MessageBoxW(
+  //  nullptr,
+  //  ESTRt(L"This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details."),
+  //  ESTRt(L"Warranty disclaimer"),
+  //  MB_OK | MB_ICONWARNING
+  //);
 
   return main_gui(nCmdShow);
 }
